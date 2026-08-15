@@ -1,0 +1,31 @@
+name: control_stock_app
+description: POS Control Stock, Ventas, Caja con Google Maps y Ticket Térmico
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+  intl: ^0.19.2
+  google_maps_flutter: ^2.6.1
+  geolocator: ^11.0.0
+  blue_thermal_printer: ^1.1.5
+  share_plus: ^7.2.2
+  pdf: ^3.10.8
+  printing: ^5.12.2
+  google_sign_in: ^6.1.6
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
